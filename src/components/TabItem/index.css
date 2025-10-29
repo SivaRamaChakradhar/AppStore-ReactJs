@@ -1,0 +1,30 @@
+.tab-item-container {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .tab-item-container {
+    margin-top: 20px;
+  }
+}
+.btn {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  border-bottom: 1px solid #7b8794;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    padding: 40px;
+    padding-bottom: 10px;
+  }
+}
+.active-tab-btn {
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}
